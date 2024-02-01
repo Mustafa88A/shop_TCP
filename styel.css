@@ -1,0 +1,183 @@
+:root {
+  --primary: #4f6f52;
+  --sicnd: #739072;
+  --thre: #86a789;
+  --end: #d2e3c8;
+}
+body {
+  margin: 0;
+  border: 0;
+  background-color: #d2e3c8;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#head {
+  /* margin: 0;
+    border: 0; */
+
+  width: 100%;
+  height: 530px;
+  background-color: var(--primary);
+  /* position: relative; */
+}
+#content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+}
+#nav {
+  /* background-color: red; */
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  background-color: var(--primary);
+}
+#Img-Nav {
+  background-color: var(--thre);
+  width: 50px;
+  margin-right: 1260px;
+  margin-left: 15px;
+}
+
+#list-nav {
+  /* height: 40px; */
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-right: 10px;
+  width: 150px;
+}
+
+#text-head {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+#img {
+  border-radius: 10px;
+}
+
+#one-section {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  /* background-color:#D2E3C8; */
+  margin-top: 400px;
+}
+#our-text {
+  font-size: 25px;
+  margin-left: 150px;
+}
+#card-Servicers {
+  /* height: 400px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#card-one {
+  border: #4f6f52 2px solid;
+  width: 180px;
+  height: 150px;
+  background-color: var(--end);
+  /* margin-top: 80px;; */
+  /* position: absolute; */
+  /* left: 25px; */
+}
+#title {
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text {
+  display: flex;
+  justify-content: end;
+  /* align-items: center; */
+  text-align: center;
+}
+.images {
+  width: 40%;
+  height: 40%;
+  margin-left: 15px;
+  margin-bottom: 105px;
+}
+
+#two-section {
+  width: 100%;
+  /* background-color: violet; */
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* flex-direction: column; */
+}
+#card-products {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  height: 360px;
+  border: 2px var(--thre) solid;
+}
+
+#image-two-section {
+  width: 100%;
+  height: 170px;
+}
+#icon-sale {
+  width: 15px;
+  margin: 0;
+}
+#button-card {
+  background-color: white;
+  text-decoration: none;
+  width: 80px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#form {
+  border: rgba(134, 167, 137, 0.1) 2px solid;
+  width: 80%;
+  height: 400px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+#cont-us {
+  width: 1210px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(210, 227, 200, 0.1);
+}
+
+#button-send {
+  width: 1210px;
+  height: 25px;
+  background-color: var(--primary);
+  color: white;
+}
+/* a:link,
+a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; */
+
+a:hover,
+a:active,
+a:visited {
+  background-color: var(--primary);
+  color: black;
+  text-decoration: none;
+}
