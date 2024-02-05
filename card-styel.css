@@ -27,17 +27,64 @@ body {
 #icon-sale {
   width: 15px;
 }
-#button-card {
+/* #button-card {
   background-color: #d2e3c8;
   width: 80px;
   height: 30px;
   border-radius: 10px;
   margin-left: 10px;
+} */
+
+a:hover,
+a:active {
+  background-color: var(--sicnd);
+  color: black;
+  text-decoration: none;
 }
 
-.button-home {
+a {
+  color: #000000;
+  background-color: white;
+  display: inline-block;
+  padding: 10px 15px;
+  border: #739072 2px solid;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 60px;
+  margin-left: 5px;
+  text-align: center;
+}
+.button-home a {
   margin-top: 50px;
   margin-left: 95px;
   width: 200px;
   height: 30px;
+}
+.Back .tohome {
+  display: inline-block;
+  margin-top: 35%;
+  margin-left: 6%;
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.UpTOtop a {
+  /* display: ; */
+  position: sticky;
+  z-index: 10;
+  top: 1000px;
+  width: 40px;
+  height: 40px;
+  margin-left: 90%;
+  border-radius: 100%;
+}
+.toTop {
+  width: 42px;
+  /* display: flex; */
+  margin-left: 5px;
+  margin-top: 5px;
 }
